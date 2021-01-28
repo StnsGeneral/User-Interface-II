@@ -248,14 +248,18 @@ footer img {
   opacity: .3;
 }
 
-@media only screen and (max-width: 728px) {
+@media only screen and (max-width: 800px) {
   .gallery img {
     width: 25rem;
     height: 25rem;
   }
+
+  .nav button {
+    width: 4rem;
+  }
 }
 
-@media only screen and (max-width: 454px) {
+@media only screen and (max-width: 620px) {
   .gallery img {
     width: 20rem;
     height: 20rem;
@@ -264,10 +268,16 @@ footer img {
   .nav {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
+    justify-items: center;
+    height: auto;
   }
 
   .nav button {
-    float: none;
+    width: 8rem;
+  }
+
+  header {
+    padding-top: 8rem;
   }
 }
